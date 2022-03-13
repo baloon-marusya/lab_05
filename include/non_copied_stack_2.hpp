@@ -1,7 +1,7 @@
 // Copyright 2021 Melnikova Maria <dandelion.m@mail.ru>
 
-#ifndef TEMPLATE_NON_COPIED_CLASS_2_HPP_
-#define TEMPLATE_NON_COPIED_CLASS_2_HPP_
+#ifndef TEMPLATE_NON_COPIED_STACK_2_HPP_
+#define TEMPLATE_NON_COPIED_STACK_2_HPP_
 
 #include "element_of_stack.hpp"
 #include <utility>
@@ -74,4 +74,4 @@ non_copied_stack_2<T>::~non_copied_stack_2()
   }
 }
 
-#endif  // TEMPLATE_NON_COPIED_CLASS_2_HPP_
+#endif  // TEMPLATE_NON_COPIED_STACK_2_HPP_

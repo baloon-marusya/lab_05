@@ -49,8 +49,7 @@ T non_copied_stack<T>::pop()
     delete tmp;
     return val;
   }
-  else
-  {
+  else{
     throw std::exception();
   }
 }
