@@ -72,4 +72,4 @@ non_copied_stack_2<T>::~non_copied_stack_2()
   }
 }
 
-#endif  // INCLUDE_NON_COPIED_STACK_2_HPP_ 
+#endif  // INCLUDE_NON_COPIED_STACK_2_HPP_
