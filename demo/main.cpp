@@ -1,5 +1,6 @@
-#include <example.hpp>
+#include <iostream>
 
-int main() {
-  example();
+int main()
+{
+  std::cout<<"Hello, world!";
 }
