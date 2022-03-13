@@ -12,14 +12,15 @@ class non_copied_stack {
   element_of_stack<T> *up = nullptr;
  public:
   non_copied_stack() = default;//конструктор по умолчанию
-  non_copied_stack(const non_copied_stack& stack) = delete;//запрет неявного копирования
+  non_copied_stack(const non_copied_stack& stack) = delete;
   non_copied_stack(non_copied_stack&& stack) noexcept = default;
   auto operator=(const non_copied_stack& stack) = delete;
-  auto operator=(non_copied_stack&& stack) noexcept -> non_copied_stack& = default;
-  void push (const T& val);
-  void push (T&& val);
+  auto operator=(non_copied_stack&& stack) noexcept
+      -> non_copied_stack& = default;
+  void push(const T& val);
+  void push(T&& val);
   T pop();
-  const T& head () const;
+  const T& head() const;
   ~non_copied_stack();
 };
 
