@@ -1,7 +1,7 @@
 // Copyright 2021 Melnikova Maria <dandelion.m@mail.ru>
 
-#ifndef TEMPLATE_NON_COPIED_STACK_2_HPP_
-#define TEMPLATE_NON_COPIED_STACK_2_HPP_
+#ifndef INCLUDE_NON_COPIED_STACK_2_HPP_
+#define INCLUDE_NON_COPIED_STACK_2_HPP_
 
 #include "element_of_stack.hpp"
 #include <utility>
@@ -50,9 +50,7 @@ T non_copied_stack_2<T>::pop()
     up = up -> previous;
     delete tmp;
     return val;
-  }
-  else
-  {
+  }else{
     throw std::exception();
   }
 }
@@ -74,4 +72,4 @@ non_copied_stack_2<T>::~non_copied_stack_2()
   }
 }
 
-#endif  // TEMPLATE_NON_COPIED_STACK_2_HPP_
+#endif  // INCLUDE_NON_COPIED_STACK_2_HPP_ 
